@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MAYOR MENOR QUE </title>
+</head>
+<BODY>
+	<H2>
+		Ingresadas tres variables se ordenaran segun cual es mayo y cual es menor
+	</H2>
+	<?php
+	$a=10;
+	$b=2;
+	$c=5;
+	echo"Valor de A $a";
+	echo "valor de B $b";
+	echo "Valor de C $c";
+	if ($a> $b and $b>$c) {
+		echo "El orden de los valores es : $a, $b $c";
+	}
+	if ($a>$b and $c>$b) {
+		echo "El orden de los valores es : $a, $c, $b";
+	}
+	if ($b>$a and $a>$c) {
+		echo "El orden de los valores es $b, $a, $c";
+	}
+	if ($b> $b and $c>$a) {
+		echo "El orden de los valores es : $b, $c, $a";
+	}
+	if ($c>$b and $b>$a) {
+		echo "El orden de los valores es : $c, $b, $a";
+	}
+	if ($c>$a and $a>$b) {
+		echo "El orden de los valores es $c, $a, $b";
+	}
+	?>
+
+</BODY>
