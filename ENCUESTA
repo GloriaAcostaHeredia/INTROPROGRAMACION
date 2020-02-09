@@ -1,0 +1,21 @@
+ENCUESTA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="main.css">
+	<title>Construya un pseudocódigo que calcule el porcentaje del resultado de una encuesta si esta a favor (Si) o en contra (No) de una pregunta formulada.</title>
+</head>
+<BODY>
+	<form action='#' method="POST">
+		
+<H2>¿ES CINDY LA REGIA PARIMONIO DE LA HUMANIDAD?</H2>
+
+  <input type="radio" name="respuesta" id="" value="Si"> Si <br>
+  <input type="radio" name="respuesta" id="" value="No"> No<br>
+  <imput type="submit" value="Votaa!"> Votaa! <br>
+</form>
+</BODY>
+</html>
