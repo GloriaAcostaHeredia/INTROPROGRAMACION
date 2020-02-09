@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercico 3</title>
+</head>
+<body>
+
+<h2>Segun el tipo de tringualo clasificarlos: </h2>
+<p>
+	determinar si un tringulo es agudo, recto o obtuso
+</p>
+<?php
+$Grados= 180;
+echo "Ingrese numero de gragos: $Grados";
+
+if ($Grados<90) {
+	echo "ITs AGUDO";
+}
+if ($Grado>90) {
+	echo "Its Obtuso";
+}
+if ($Grados=90) {
+	echo "ITs Recto";
+}
+?>
+</body>
+</html>
