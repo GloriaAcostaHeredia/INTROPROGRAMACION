@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercico 2</title>
+</head>
+<body>
+<h2>Desarrollar lo siguiente: </h2>
+
+<p>
+	Dado el nombre de una persona,su peso y altura en libras y pies escriba su peso expreado en kg y en m.
+</p>
+
+<?php
+$Nombre="Gloria :D";
+$Peso=304;
+$Altura=7;
+
+$PesoKgs=$Peso*0.45;
+$AlturaMts=$Altura*0.3048;
+
+echo "Nombre: $Nombre <br>";
+echo "Pesa en Libras:  $Peso <br>";
+echo "Altura en pies: $Altura <br>"; 
+echo "<br><br>";
+echo "Peso en Kgs $PesoKgs <br>";
+echo "Altura en metros $AlturaMts<br>";
+
+
+?>
+
+</body>
+</html>
