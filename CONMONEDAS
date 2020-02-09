@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Construya un pseudocódigo, que dado como dato una cantidad expresada en pesos</title>
+</head>
+<body>
+	<h2>CONVERTIDOR DE MONEDA</h2>
+	<?php
+	//Se introduce la cantidad a convertir
+	$cant=220;
+	//Se desenglosa las conversiones posibles; entre parentesis se encuentra la operacion para llegar al resultado
+	echo $cant, " De pesos a dolar son ", ($cant*0.053), "dolares";
+	echo "<br>";
+	echo $cant, " De pesos a Euros son ", ($cant*0.049), "Euros";
+	echo "<br>";
+	echo $cant, " De Dolares a pesos son ", ($cant/0.053), "pesos";
+	echo "<br>";
+	echo $cant, " De Euros a dolar son ", ($cant/0.049), "pesos";
+	echo "<br>";
+	?>
+</body>
+</html>
