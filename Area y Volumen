@@ -9,10 +9,16 @@
 		Dado el radio y la altura de un cilindro, calcule e imprima el área y su volumen
 	</H2>
 	<?php
+	/*Se INGRESA EL RADIO*/
 	$r=12;
+	/*SE DETERMINA LA ALTURA*/
 	$h=5;
+	/*EN MI CASO DETERMINE PI COMO 3.1416*/
 	$pi=3.1416;
+	/*SE IMPRIME AREA ADJUNTADO LA FORMUNA DE 2*PI*R*H + 2*PI*R^2*/
 	echo "El area del cindro es de:",((2*$pi*($r*$h))+(2*$pi*($r^2)));
+	/*sE IMPRIME AJGUTNADO LA FORMULADE PI*R^2*H*/
 	echo "El volumen del cilindro es de:"($pi*($r^2)$h);
 	?>
 </BODY>
+</html>
