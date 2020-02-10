@@ -18,7 +18,7 @@
 	/*SE IMPRIME AREA ADJUNTADO LA FORMUNA DE 2*PI*R*H + 2*PI*R^2*/
 	echo "El area del cindro es de:",((2*$pi*($r*$h))+(2*$pi*($r^2)));
 	/*sE IMPRIME AJGUTNADO LA FORMULADE PI*R^2*H*/
-	echo "El volumen del cilindro es de:"($pi*($r^2)$h);
+	echo "El volumen del cilindro es de:",($pi*($r^2)$h);
 	?>
 </BODY>
 </html>
