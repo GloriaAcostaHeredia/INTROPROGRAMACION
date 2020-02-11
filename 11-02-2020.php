@@ -2,21 +2,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> C O L O R S </title>
+	<title> C A M B I O   Y  F U E R A </title>
 </head>
 <BODY>
 	<H2>
-		Ingresando el nombre deun color imprima color encontrado si el nombre de color es igual al almacenado dentro del algortimo. Minimo de almacenamiento 10
+	  Ingresando una cantidad, que sea menor o igual a 100 dolares realice el tipo de cambio a pesos
 	</H2>
 	<?php
-	$Question=$Turquesa
-	$Colores=$Azul,$Rojo,$Verde,$Morado,$Rosa,$Amarrillo,$Blanco,$Gris,$Naranja,$Negro
-	echo "EL color $Question esta...";
-	if ($Question=$Colores) {
-		echo "Encontrado en el catalogo";
+	$Cant=99;
+	if ($Cant<=100) {
+		$T=$Cant/18.66;
+		echo "Su cambio es de $T";
 	}
-	if ($Question<>$Colores) {
-		echo "No encontrado en el catalogo";
+	if ($Cant>100) {
+		echo"Su cambio es de $Cant";
 	}
 	?>
 </BODY>
