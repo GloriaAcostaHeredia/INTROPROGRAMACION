@@ -9,4 +9,4 @@
      echo"<br>"
     echo $_POST['a']*$_POST['Multi'];
 ?>
-<p>Volver a consultar: <a href="index.php">VOLVER</a>
+<p>Volver a consultar: <a href="indexx.php">VOLVER</a>
